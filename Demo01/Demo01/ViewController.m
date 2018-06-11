@@ -16,6 +16,8 @@
 #import "UIImageView+WebCache.h"
 //引用Pch文件不用创建的文件
 #import <CommonProject1/CommonProjectPch.h>
+#import <NetWork/NetWork.h>
+
 
 
 @interface ViewController ()
@@ -35,6 +37,9 @@
     
     CommonProjectView *projectview = [[CommonProjectView alloc] initWithFrame:CGRectMake(100, 450, 100, 100)];
     [self.view addSubview:projectview];
+    
+    NetWork *nw = [NetWork new];
+    
 //    CustomView *custom = [[CustomView alloc] init];
 //    custom.frame = CGRectMake(100, 400, 100, 100);
 //    [self.view addSubview:custom];

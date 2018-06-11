@@ -10,6 +10,7 @@
 		0F75335320AAD6C700906576 /* abc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0F75335220AAD6C700906576 /* abc.txt */; };
 		0F75335620AADE2D00906576 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F75335520AADE2D00906576 /* User.m */; };
 		0FA7FA6820CE592800548BCE /* libCommonProject1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA7FA6720CE592800548BCE /* libCommonProject1.a */; };
+		0FA7FADF20CE746200548BCE /* libNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA7FADE20CE746200548BCE /* libNetWork.a */; };
 		0FC9D1F92090A39D0094179A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9D1F82090A39D0094179A /* AppDelegate.m */; };
 		0FC9D1FC2090A39D0094179A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9D1FB2090A39D0094179A /* ViewController.m */; };
 		0FC9D1FF2090A39D0094179A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC9D1FD2090A39D0094179A /* Main.storyboard */; };
@@ -21,61 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0FA7FA4F20CE552700548BCE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FA7FA4920CE552700548BCE /* CommonProject.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0FA7FA1120CE541000548BCE;
-			remoteInfo = CommonProject;
-		};
-		0FA7FA5120CE552700548BCE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FA7FA4920CE552700548BCE /* CommonProject.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0FA7FA2920CE541200548BCE;
-			remoteInfo = CommonProjectTests;
-		};
-		0FA7FA5320CE552700548BCE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FA7FA4920CE552700548BCE /* CommonProject.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0FA7FA3420CE541200548BCE;
-			remoteInfo = CommonProjectUITests;
-		};
-		0FA7FA5520CE555500548BCE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FA7FA4920CE552700548BCE /* CommonProject.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 0FA7FA1020CE541000548BCE;
-			remoteInfo = CommonProject;
-		};
 		0FA7FA6620CE592800548BCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0FA7FA4920CE552700548BCE /* CommonProject.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 0FA7FA5C20CE578E00548BCE;
 			remoteInfo = CommonProject1;
-		};
-		0FA7FABF20CE6F9A00548BCE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FA7FAB620CE6F9A00548BCE /* CustomProjectNetWork.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0FA7FA8020CE6D8100548BCE;
-			remoteInfo = CustomProjectNetWork;
-		};
-		0FA7FAC120CE6F9A00548BCE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FA7FAB620CE6F9A00548BCE /* CustomProjectNetWork.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0FA7FA9820CE6D8300548BCE;
-			remoteInfo = CustomProjectNetWorkTests;
-		};
-		0FA7FAC320CE6F9A00548BCE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FA7FAB620CE6F9A00548BCE /* CustomProjectNetWork.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0FA7FAA320CE6D8300548BCE;
-			remoteInfo = CustomProjectNetWorkUITests;
 		};
 		0FC9D20D2090A39F0094179A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -98,7 +50,7 @@
 		0F75335420AADE2D00906576 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		0F75335520AADE2D00906576 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		0FA7FA4920CE552700548BCE /* CommonProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CommonProject.xcodeproj; path = ../CommonProject/CommonProject.xcodeproj; sourceTree = "<group>"; };
-		0FA7FAB620CE6F9A00548BCE /* CustomProjectNetWork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomProjectNetWork.xcodeproj; path = ../../CustomProjectNetWork/CustomProjectNetWork.xcodeproj; sourceTree = "<group>"; };
+		0FA7FADE20CE746200548BCE /* libNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libNetWork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC9D1F42090A39D0094179A /* Demo01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC9D1F72090A39D0094179A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0FC9D1F82090A39D0094179A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -126,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA7FADF20CE746200548BCE /* libNetWork.a in Frameworks */,
 				0FA7FA6820CE592800548BCE /* libCommonProject1.a in Frameworks */,
 				2617BB1C89E0CE111117E70E /* libPods-Demo01.a in Frameworks */,
 			);
@@ -160,20 +113,7 @@
 		0FA7FA4A20CE552700548BCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FA7FA5020CE552700548BCE /* CommonProject.app */,
-				0FA7FA5220CE552700548BCE /* CommonProjectTests.xctest */,
-				0FA7FA5420CE552700548BCE /* CommonProjectUITests.xctest */,
 				0FA7FA6720CE592800548BCE /* libCommonProject1.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0FA7FAB720CE6F9A00548BCE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0FA7FAC020CE6F9A00548BCE /* CustomProjectNetWork.app */,
-				0FA7FAC220CE6F9A00548BCE /* CustomProjectNetWorkTests.xctest */,
-				0FA7FAC420CE6F9A00548BCE /* CustomProjectNetWorkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,7 +148,6 @@
 				0FC9D1F82090A39D0094179A /* AppDelegate.m */,
 				0FC9D1FA2090A39D0094179A /* ViewController.h */,
 				0FC9D1FB2090A39D0094179A /* ViewController.m */,
-				0FA7FAB620CE6F9A00548BCE /* CustomProjectNetWork.xcodeproj */,
 				0F75335420AADE2D00906576 /* User.h */,
 				0F75335520AADE2D00906576 /* User.m */,
 				0FC9D2292090A3E10094179A /* GlobalHeader.h */,
@@ -242,6 +181,7 @@
 		67875708938BB926FF452BB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0FA7FADE20CE746200548BCE /* libNetWork.a */,
 				0FA7FA4920CE552700548BCE /* CommonProject.xcodeproj */,
 				1980AF2E004B82DA9186E1A0 /* libPods-Demo01.a */,
 			);
@@ -263,7 +203,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				0FA7FA5620CE555500548BCE /* PBXTargetDependency */,
 			);
 			name = Demo01;
 			productName = Demo01;
@@ -344,10 +283,6 @@
 					ProductGroup = 0FA7FA4A20CE552700548BCE /* Products */;
 					ProjectRef = 0FA7FA4920CE552700548BCE /* CommonProject.xcodeproj */;
 				},
-				{
-					ProductGroup = 0FA7FAB720CE6F9A00548BCE /* Products */;
-					ProjectRef = 0FA7FAB620CE6F9A00548BCE /* CustomProjectNetWork.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -359,53 +294,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		0FA7FA5020CE552700548BCE /* CommonProject.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = CommonProject.app;
-			remoteRef = 0FA7FA4F20CE552700548BCE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0FA7FA5220CE552700548BCE /* CommonProjectTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CommonProjectTests.xctest;
-			remoteRef = 0FA7FA5120CE552700548BCE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0FA7FA5420CE552700548BCE /* CommonProjectUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CommonProjectUITests.xctest;
-			remoteRef = 0FA7FA5320CE552700548BCE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		0FA7FA6720CE592800548BCE /* libCommonProject1.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libCommonProject1.a;
 			remoteRef = 0FA7FA6620CE592800548BCE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0FA7FAC020CE6F9A00548BCE /* CustomProjectNetWork.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = CustomProjectNetWork.app;
-			remoteRef = 0FA7FABF20CE6F9A00548BCE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0FA7FAC220CE6F9A00548BCE /* CustomProjectNetWorkTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CustomProjectNetWorkTests.xctest;
-			remoteRef = 0FA7FAC120CE6F9A00548BCE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0FA7FAC420CE6F9A00548BCE /* CustomProjectNetWorkUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CustomProjectNetWorkUITests.xctest;
-			remoteRef = 0FA7FAC320CE6F9A00548BCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -489,11 +382,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0FA7FA5620CE555500548BCE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CommonProject;
-			targetProxy = 0FA7FA5520CE555500548BCE /* PBXContainerItemProxy */;
-		};
 		0FC9D20E2090A39F0094179A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0FC9D1F32090A39D0094179A /* Demo01 */;
@@ -651,6 +539,7 @@
 					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
 					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
 					"\"$(SRCROOT)/../CommonProject\"/**",
+					"\"$(SRCROOT)/../CustomProjectNetWork\"/**",
 				);
 				INFOPLIST_FILE = Demo01/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
@@ -679,6 +568,7 @@
 					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
 					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
 					"\"$(SRCROOT)/../CommonProject\"/**",
+					"\"$(SRCROOT)/../CustomProjectNetWork\"/**",
 				);
 				INFOPLIST_FILE = Demo01/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
