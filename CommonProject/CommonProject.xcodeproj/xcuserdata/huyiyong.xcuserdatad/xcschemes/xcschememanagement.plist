@@ -6,6 +6,8 @@
 	<dict>
 		<key>CommonProject.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
@@ -13,6 +15,24 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0FA7FA1020CE541000548BCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0FA7FA2820CE541200548BCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0FA7FA3320CE541200548BCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

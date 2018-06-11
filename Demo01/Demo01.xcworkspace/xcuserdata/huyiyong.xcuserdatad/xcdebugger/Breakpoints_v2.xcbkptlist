@@ -49,53 +49,6 @@
             endingLineNumber = "816"
             landmarkName = "-downloadTaskWithResumeData:progress:destination:completionHandler:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[AFURLSessionManager downloadTaskWithResumeData:progress:destination:completionHandler:]"
-                  moduleName = "Demo01"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/huyiyong/Demeo1/Demo01/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
-                  timestampString = "550398264.498684"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "816"
-                  endingLineNumber = "816"
-                  offsetFromSymbolStart = "196">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__89-[AFURLSessionManager downloadTaskWithResumeData:progress:destination:completionHandler:]_block_invoke"
-                  moduleName = "Demo01"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/huyiyong/Demeo1/Demo01/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
-                  timestampString = "550398264.500825"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "816"
-                  endingLineNumber = "816"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__destroy_helper_block_.517"
-                  moduleName = "Demo01"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/huyiyong/Demeo1/Demo01/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
-                  timestampString = "550398264.503222"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "816"
-                  endingLineNumber = "816"
-                  offsetFromSymbolStart = "17">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

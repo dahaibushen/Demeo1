@@ -52,6 +52,7 @@
 		0FA7FA5F20CE578E00548BCE /* CommonProject1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonProject1.m; sourceTree = "<group>"; };
 		0FA7FA6D20CE668A00548BCE /* CommonProjectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonProjectView.h; sourceTree = "<group>"; };
 		0FA7FA6E20CE668A00548BCE /* CommonProjectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonProjectView.m; sourceTree = "<group>"; };
+		0FA7FA7520CE6AE900548BCE /* CommonProjectPch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonProjectPch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +122,7 @@
 				0FA7FA5F20CE578E00548BCE /* CommonProject1.m */,
 				0FA7FA6D20CE668A00548BCE /* CommonProjectView.h */,
 				0FA7FA6E20CE668A00548BCE /* CommonProjectView.m */,
+				0FA7FA7520CE6AE900548BCE /* CommonProjectPch.h */,
 			);
 			path = CommonProject1;
 			sourceTree = "<group>";
@@ -430,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/huyiyong/Demeo1/CommonProject/CommonProject1/CommonProjectPch.h;
 				INFOPLIST_FILE = CommonProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -447,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/huyiyong/Demeo1/CommonProject/CommonProject1/CommonProjectPch.h;
 				INFOPLIST_FILE = CommonProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
