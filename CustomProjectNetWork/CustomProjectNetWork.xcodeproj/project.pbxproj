@@ -7,14 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FA7FA8520CE6D8100548BCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FA8420CE6D8100548BCE /* AppDelegate.m */; };
-		0FA7FA8820CE6D8100548BCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FA8720CE6D8100548BCE /* ViewController.m */; };
-		0FA7FA8B20CE6D8100548BCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA7FA8920CE6D8100548BCE /* Main.storyboard */; };
-		0FA7FA8D20CE6D8200548BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FA7FA8C20CE6D8200548BCE /* Assets.xcassets */; };
-		0FA7FA9020CE6D8200548BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA7FA8E20CE6D8200548BCE /* LaunchScreen.storyboard */; };
-		0FA7FA9320CE6D8200548BCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FA9220CE6D8200548BCE /* main.m */; };
-		0FA7FA9D20CE6D8300548BCE /* CustomProjectNetWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FA9C20CE6D8300548BCE /* CustomProjectNetWorkTests.m */; };
-		0FA7FAA820CE6D8300548BCE /* CustomProjectNetWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FAA720CE6D8300548BCE /* CustomProjectNetWorkUITests.m */; };
+		0FA7FACD20CE6FEF00548BCE /* NetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FACC20CE6FEF00548BCE /* NetWork.m */; };
+		0FA7FACE20CE6FEF00548BCE /* NetWork.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0FA7FACB20CE6FEF00548BCE /* NetWork.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,23 +28,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0FA7FAC720CE6FEF00548BCE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0FA7FACE20CE6FEF00548BCE /* NetWork.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0FA7FA8020CE6D8100548BCE /* CustomProjectNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomProjectNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FA7FA8320CE6D8100548BCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0FA7FA8420CE6D8100548BCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0FA7FA8620CE6D8100548BCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0FA7FA8720CE6D8100548BCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0FA7FA8A20CE6D8100548BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0FA7FA8C20CE6D8200548BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0FA7FA8F20CE6D8200548BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FA7FA9120CE6D8200548BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FA7FA9220CE6D8200548BCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0FA7FA9820CE6D8300548BCE /* CustomProjectNetWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomProjectNetWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FA7FA9C20CE6D8300548BCE /* CustomProjectNetWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomProjectNetWorkTests.m; sourceTree = "<group>"; };
-		0FA7FA9E20CE6D8300548BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FA7FAA320CE6D8300548BCE /* CustomProjectNetWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomProjectNetWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FA7FAA720CE6D8300548BCE /* CustomProjectNetWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomProjectNetWorkUITests.m; sourceTree = "<group>"; };
-		0FA7FAA920CE6D8300548BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FA7FAC920CE6FEF00548BCE /* libNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetWork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA7FACB20CE6FEF00548BCE /* NetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
+		0FA7FACC20CE6FEF00548BCE /* NetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWork.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +73,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0FA7FAC620CE6FEF00548BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,8 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				0FA7FA8220CE6D8100548BCE /* CustomProjectNetWork */,
-				0FA7FA9B20CE6D8300548BCE /* CustomProjectNetWorkTests */,
-				0FA7FAA620CE6D8300548BCE /* CustomProjectNetWorkUITests */,
+				0FA7FACA20CE6FEF00548BCE /* NetWork */,
 				0FA7FA8120CE6D8100548BCE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +98,7 @@
 				0FA7FA8020CE6D8100548BCE /* CustomProjectNetWork.app */,
 				0FA7FA9820CE6D8300548BCE /* CustomProjectNetWorkTests.xctest */,
 				0FA7FAA320CE6D8300548BCE /* CustomProjectNetWorkUITests.xctest */,
+				0FA7FAC920CE6FEF00548BCE /* libNetWork.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,35 +106,18 @@
 		0FA7FA8220CE6D8100548BCE /* CustomProjectNetWork */ = {
 			isa = PBXGroup;
 			children = (
-				0FA7FA8320CE6D8100548BCE /* AppDelegate.h */,
-				0FA7FA8420CE6D8100548BCE /* AppDelegate.m */,
-				0FA7FA8620CE6D8100548BCE /* ViewController.h */,
-				0FA7FA8720CE6D8100548BCE /* ViewController.m */,
-				0FA7FA8920CE6D8100548BCE /* Main.storyboard */,
-				0FA7FA8C20CE6D8200548BCE /* Assets.xcassets */,
-				0FA7FA8E20CE6D8200548BCE /* LaunchScreen.storyboard */,
 				0FA7FA9120CE6D8200548BCE /* Info.plist */,
-				0FA7FA9220CE6D8200548BCE /* main.m */,
 			);
 			path = CustomProjectNetWork;
 			sourceTree = "<group>";
 		};
-		0FA7FA9B20CE6D8300548BCE /* CustomProjectNetWorkTests */ = {
+		0FA7FACA20CE6FEF00548BCE /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
-				0FA7FA9C20CE6D8300548BCE /* CustomProjectNetWorkTests.m */,
-				0FA7FA9E20CE6D8300548BCE /* Info.plist */,
+				0FA7FACB20CE6FEF00548BCE /* NetWork.h */,
+				0FA7FACC20CE6FEF00548BCE /* NetWork.m */,
 			);
-			path = CustomProjectNetWorkTests;
-			sourceTree = "<group>";
-		};
-		0FA7FAA620CE6D8300548BCE /* CustomProjectNetWorkUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0FA7FAA720CE6D8300548BCE /* CustomProjectNetWorkUITests.m */,
-				0FA7FAA920CE6D8300548BCE /* Info.plist */,
-			);
-			path = CustomProjectNetWorkUITests;
+			path = NetWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +176,23 @@
 			productReference = 0FA7FAA320CE6D8300548BCE /* CustomProjectNetWorkUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0FA7FAC820CE6FEF00548BCE /* NetWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA7FAD120CE6FEF00548BCE /* Build configuration list for PBXNativeTarget "NetWork" */;
+			buildPhases = (
+				0FA7FAC520CE6FEF00548BCE /* Sources */,
+				0FA7FAC620CE6FEF00548BCE /* Frameworks */,
+				0FA7FAC720CE6FEF00548BCE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetWork;
+			productName = NetWork;
+			productReference = 0FA7FAC920CE6FEF00548BCE /* libNetWork.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,6 +213,9 @@
 						CreatedOnToolsVersion = 9.3;
 						TestTargetID = 0FA7FA7F20CE6D8100548BCE;
 					};
+					0FA7FAC820CE6FEF00548BCE = {
+						CreatedOnToolsVersion = 9.3;
+					};
 				};
 			};
 			buildConfigurationList = 0FA7FA7B20CE6D8100548BCE /* Build configuration list for PBXProject "CustomProjectNetWork" */;
@@ -226,6 +234,7 @@
 				0FA7FA7F20CE6D8100548BCE /* CustomProjectNetWork */,
 				0FA7FA9720CE6D8300548BCE /* CustomProjectNetWorkTests */,
 				0FA7FAA220CE6D8300548BCE /* CustomProjectNetWorkUITests */,
+				0FA7FAC820CE6FEF00548BCE /* NetWork */,
 			);
 		};
 /* End PBXProject section */
@@ -235,9 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA7FA9020CE6D8200548BCE /* LaunchScreen.storyboard in Resources */,
-				0FA7FA8D20CE6D8200548BCE /* Assets.xcassets in Resources */,
-				0FA7FA8B20CE6D8100548BCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA7FA8820CE6D8100548BCE /* ViewController.m in Sources */,
-				0FA7FA9320CE6D8200548BCE /* main.m in Sources */,
-				0FA7FA8520CE6D8100548BCE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA7FA9D20CE6D8300548BCE /* CustomProjectNetWorkTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA7FAA820CE6D8300548BCE /* CustomProjectNetWorkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA7FAC520CE6FEF00548BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA7FACD20CE6FEF00548BCE /* NetWork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +307,6 @@
 			targetProxy = 0FA7FAA420CE6D8300548BCE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0FA7FA8920CE6D8100548BCE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FA7FA8A20CE6D8100548BCE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0FA7FA8E20CE6D8200548BCE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FA7FA8F20CE6D8200548BCE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0FA7FAAA20CE6D8300548BCE /* Debug */ = {
@@ -370,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -422,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -531,6 +521,28 @@
 			};
 			name = Release;
 		};
+		0FA7FACF20CE6FEF00548BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FA7FAD020CE6FEF00548BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -566,6 +578,15 @@
 			buildConfigurations = (
 				0FA7FAB320CE6D8300548BCE /* Debug */,
 				0FA7FAB420CE6D8300548BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FA7FAD120CE6FEF00548BCE /* Build configuration list for PBXNativeTarget "NetWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA7FACF20CE6FEF00548BCE /* Debug */,
+				0FA7FAD020CE6FEF00548BCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
