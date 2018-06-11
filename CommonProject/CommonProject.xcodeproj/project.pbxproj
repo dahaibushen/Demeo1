@@ -26,7 +26,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0FA7FA1120CE541000548BCE /* CommonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA7FA2220CE541200548BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FA7FA5C20CE578E00548BCE /* libCommonProject1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonProject1.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA7FA5E20CE578E00548BCE /* CommonProject1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonProject1.h; sourceTree = "<group>"; };
@@ -37,13 +36,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0FA7FA0E20CE541000548BCE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0FA7FA5920CE578E00548BCE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,7 +58,6 @@
 		0FA7FA1220CE541000548BCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FA7FA1120CE541000548BCE /* CommonProject.app */,
 				0FA7FA5C20CE578E00548BCE /* libCommonProject1.a */,
 			);
 			name = Products;
@@ -95,23 +86,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0FA7FA1020CE541000548BCE /* CommonProject */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0FA7FA3D20CE541300548BCE /* Build configuration list for PBXNativeTarget "CommonProject" */;
-			buildPhases = (
-				0FA7FA0D20CE541000548BCE /* Sources */,
-				0FA7FA0E20CE541000548BCE /* Frameworks */,
-				0FA7FA0F20CE541000548BCE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CommonProject;
-			productName = CommonProject;
-			productReference = 0FA7FA1120CE541000548BCE /* CommonProject.app */;
-			productType = "com.apple.product-type.application";
-		};
 		0FA7FA5B20CE578E00548BCE /* CommonProject1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FA7FA6220CE578E00548BCE /* Build configuration list for PBXNativeTarget "CommonProject1" */;
@@ -138,9 +112,6 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "胡义勇";
 				TargetAttributes = {
-					0FA7FA1020CE541000548BCE = {
-						CreatedOnToolsVersion = 9.3;
-					};
 					0FA7FA5B20CE578E00548BCE = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -159,30 +130,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0FA7FA1020CE541000548BCE /* CommonProject */,
 				0FA7FA5B20CE578E00548BCE /* CommonProject1 */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		0FA7FA0F20CE541000548BCE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0FA7FA0D20CE541000548BCE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0FA7FA5820CE578E00548BCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,42 +258,6 @@
 			};
 			name = Release;
 		};
-		0FA7FA3E20CE541300548BCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = /Users/huyiyong/Demeo1/CommonProject/CommonProject1/CommonProjectPch.h;
-				INFOPLIST_FILE = CommonProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = COM.JD.CommonProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		0FA7FA3F20CE541300548BCE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = /Users/huyiyong/Demeo1/CommonProject/CommonProject1/CommonProjectPch.h;
-				INFOPLIST_FILE = CommonProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = COM.JD.CommonProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		0FA7FA6320CE578E00548BCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -373,15 +290,6 @@
 			buildConfigurations = (
 				0FA7FA3B20CE541300548BCE /* Debug */,
 				0FA7FA3C20CE541300548BCE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0FA7FA3D20CE541300548BCE /* Build configuration list for PBXNativeTarget "CommonProject" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0FA7FA3E20CE541300548BCE /* Debug */,
-				0FA7FA3F20CE541300548BCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
