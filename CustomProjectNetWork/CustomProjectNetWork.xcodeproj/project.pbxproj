@@ -29,6 +29,7 @@
 		0FA7FAC920CE6FEF00548BCE /* libNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetWork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA7FACB20CE6FEF00548BCE /* NetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
 		0FA7FACC20CE6FEF00548BCE /* NetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWork.m; sourceTree = "<group>"; };
+		0FA7FAE420CE773400548BCE /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 				0FA7FA8220CE6D8100548BCE /* CustomProjectNetWork */,
 				0FA7FACA20CE6FEF00548BCE /* NetWork */,
 				0FA7FA8120CE6D8100548BCE /* Products */,
+				0FA7FAE320CE773400548BCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +76,14 @@
 				0FA7FACC20CE6FEF00548BCE /* NetWork.m */,
 			);
 			path = NetWork;
+			sourceTree = "<group>";
+		};
+		0FA7FAE320CE773400548BCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FA7FAE420CE773400548BCE /* libAFNetworking.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../Demo01/Pods\"/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -265,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../Demo01/Pods\"/**";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

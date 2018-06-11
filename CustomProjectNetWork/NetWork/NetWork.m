@@ -7,7 +7,18 @@
 //
 
 #import "NetWork.h"
+#import <AFNetworking.h>
 
 @implementation NetWork
+
+-(instancetype)init{
+    if (self = [super init]) {
+        AFHTTPSessionManager *sessionManager = [AFHTTPSessionManager manager];
+            sessionManager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    }
+    return self;
+}
+
+
 
 @end
