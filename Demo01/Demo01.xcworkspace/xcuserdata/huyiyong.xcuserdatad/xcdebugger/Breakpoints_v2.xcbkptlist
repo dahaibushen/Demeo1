@@ -58,7 +58,7 @@
                   moduleName = "Demo01"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/huyiyong/Demeo1/Demo01/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
-                  timestampString = "550403165.272505"
+                  timestampString = "550405093.037768"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "816"
@@ -73,7 +73,7 @@
                   moduleName = "Demo01"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/huyiyong/Demeo1/Demo01/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
-                  timestampString = "550403165.275048"
+                  timestampString = "550405093.0405869"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "816"
@@ -88,7 +88,7 @@
                   moduleName = "Demo01"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/huyiyong/Demeo1/Demo01/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
-                  timestampString = "550403165.278612"
+                  timestampString = "550405093.043584"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "816"
@@ -328,22 +328,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
-            timestampString = "549886627.6963609"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1119"
-            endingLineNumber = "1119"
-            landmarkName = "-URLSession:dataTask:didReceiveData:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m"
             timestampString = "549775999.583056"
             startingColumnNumber = "9223372036854775807"
@@ -479,6 +463,38 @@
             startingLineNumber = "394"
             endingLineNumber = "394"
             landmarkName = "-imageFromDiskCacheForKey:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
+            timestampString = "550405055.3548729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1119"
+            endingLineNumber = "1119"
+            landmarkName = "-URLSession:dataTask:didReceiveData:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CustomProjectNetWork/NetWork/NetWork.m"
+            timestampString = "550405092.891883"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-getRequsetDetailNewsWithString:WithCompleteBlock:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

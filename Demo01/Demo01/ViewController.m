@@ -38,26 +38,13 @@
     CommonProjectView *projectview = [[CommonProjectView alloc] initWithFrame:CGRectMake(100, 450, 100, 100)];
     [self.view addSubview:projectview];
     
-    NetWork *nw = [NetWork new];
     
 //    CustomView *custom = [[CustomView alloc] init];
 //    custom.frame = CGRectMake(100, 400, 100, 100);
 //    [self.view addSubview:custom];
     
-//    AFHTTPSessionManager *sessionManager = [AFHTTPSessionManager manager];
-//    sessionManager.responseSerializer = [AFHTTPResponseSerializer serializer];
-//    [sessionManager GET:@"http://img.zcool.cn/community/0142135541fe180000019ae9b8cf86.jpg" parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
-//        
-//    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-//        
-//        self.showImageView.image = [UIImage imageWithData:responseObject];
-//        NSLog(@"look here sssss---:%@",self.showImageView.image);
-//        
-//    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-//        NSLog(@"look here error ----:%@",error.localizedDescription);
-//    }];
 //    AFHTTPSessionManager *session = [AFHTTPRequestSerializer sharedImageDownloader];
-    AFImageDownloader *loader = [UIImageView sharedImageDownloader];
+//    AFImageDownloader *loader = [UIImageView sharedImageDownloader];
 //    [self.showImageView setImageWithURL:[NSURL URLWithString:@"http://img.zcool.cn/community/0142135541fe180000019ae9b8cf86.jpg"]];
     
     //http://img.zcool.cn/community/0142135541fe180000019ae9b8cf86.jpg
@@ -68,8 +55,11 @@
 //    SDImageCache *imageCache = [SDImageCache sharedImageCache];
 //    imageCache.config.maxCacheAge = 10;
 //    [self.showImageView sd_setImageWithURL:[NSURL URLWithString:@"http://img.zcool.cn/community/01635d571ed29832f875a3994c7836.png@900w_1l_2o_100sh.jpg"] placeholderImage:nil];
-    [self.showImageView sd_setImageWithURL:[NSURL URLWithString:@"http://img.zcool.cn/community/01635d571ed29832f875a3994c7836.png@900w_1l_2o_100sh.jpg"] placeholderImage:nil options:(SDWebImageCacheMemoryOnly)];//SDWebImageQueryDiskSync
-    
+//    [self.showImageView sd_setImageWithURL:[NSURL URLWithString:@"http://img.zcool.cn/community/01635d571ed29832f875a3994c7836.png@900w_1l_2o_100sh.jpg"] placeholderImage:nil options:(SDWebImageCacheMemoryOnly)];//SDWebImageQueryDiskSync
+    NetWork *nw = [NetWork new];
+    [nw getRequsetDetailNewsWithString:@"http://img.zcool.cn/community/01635d571ed29832f875a3994c7836.png@900w_1l_2o_100sh.jpg" WithCompleteBlock:^(id obj) {
+        NSLog(@"look here sssss---: %@",obj);
+    }];
     
 //    NSString *path = [[NSBundle mainBundle] pathForResource:@"abc.txt" ofType:nil];
 //    NSData *data = [[NSData alloc] initWithContentsOfFile:path];
