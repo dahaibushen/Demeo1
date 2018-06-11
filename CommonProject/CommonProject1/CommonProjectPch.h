@@ -8,6 +8,7 @@
 
 #ifndef CommonProjectPch_h
 #define CommonProjectPch_h
-
+#import "CommonProject1.h"
+#import "CommonProjectView.h"
 
 #endif /* CommonProjectPch_h */

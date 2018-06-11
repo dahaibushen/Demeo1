@@ -14,7 +14,8 @@
 #import "AFImageDownloader.h"
 #import "UIImageView+AFNetworking.h"
 #import "UIImageView+WebCache.h"
-#import <CommonProject1/CommonProjectView.h>
+//引用Pch文件不用创建的文件
+#import <CommonProject1/CommonProjectPch.h>
 
 
 @interface ViewController ()
