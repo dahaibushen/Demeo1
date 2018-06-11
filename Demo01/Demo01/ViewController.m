@@ -58,7 +58,7 @@
 //    [self.showImageView sd_setImageWithURL:[NSURL URLWithString:@"http://img.zcool.cn/community/01635d571ed29832f875a3994c7836.png@900w_1l_2o_100sh.jpg"] placeholderImage:nil options:(SDWebImageCacheMemoryOnly)];//SDWebImageQueryDiskSync
     NetWork *nw = [NetWork new];
     [nw getRequsetDetailNewsWithString:@"http://img.zcool.cn/community/01635d571ed29832f875a3994c7836.png@900w_1l_2o_100sh.jpg" WithCompleteBlock:^(id obj) {
-        NSLog(@"look here sssss---: %@",obj);
+        [self.showImageView setImage:[UIImage imageWithData:obj]];
     }];
     
 //    NSString *path = [[NSBundle mainBundle] pathForResource:@"abc.txt" ofType:nil];

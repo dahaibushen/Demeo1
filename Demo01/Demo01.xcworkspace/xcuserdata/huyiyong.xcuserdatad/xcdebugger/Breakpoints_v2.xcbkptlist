@@ -58,7 +58,7 @@
                   moduleName = "Demo01"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/huyiyong/Demeo1/Demo01/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
-                  timestampString = "550405093.037768"
+                  timestampString = "550405224.013297"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "816"
@@ -73,7 +73,7 @@
                   moduleName = "Demo01"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/huyiyong/Demeo1/Demo01/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
-                  timestampString = "550405093.0405869"
+                  timestampString = "550405224.01554"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "816"
@@ -88,7 +88,7 @@
                   moduleName = "Demo01"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/huyiyong/Demeo1/Demo01/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
-                  timestampString = "550405093.043584"
+                  timestampString = "550405224.019299"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "816"
@@ -469,7 +469,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/AFNetworking/AFNetworking/AFURLSessionManager.m"
@@ -485,11 +485,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../CustomProjectNetWork/NetWork/NetWork.m"
-            timestampString = "550405092.891883"
+            timestampString = "550405223.854197"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
