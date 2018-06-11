@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FA7FA1620CE541000548BCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FA1520CE541000548BCE /* AppDelegate.m */; };
-		0FA7FA2420CE541200548BCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FA2320CE541200548BCE /* main.m */; };
 		0FA7FA6020CE578E00548BCE /* CommonProject1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FA5F20CE578E00548BCE /* CommonProject1.m */; };
 		0FA7FA6120CE578E00548BCE /* CommonProject1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0FA7FA5E20CE578E00548BCE /* CommonProject1.h */; };
 		0FA7FA6F20CE668A00548BCE /* CommonProjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FA6E20CE668A00548BCE /* CommonProjectView.m */; };
@@ -46,10 +44,7 @@
 
 /* Begin PBXFileReference section */
 		0FA7FA1120CE541000548BCE /* CommonProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FA7FA1420CE541000548BCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0FA7FA1520CE541000548BCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0FA7FA2220CE541200548BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FA7FA2320CE541200548BCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0FA7FA2920CE541200548BCE /* CommonProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA7FA3420CE541200548BCE /* CommonProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA7FA5C20CE578E00548BCE /* libCommonProject1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonProject1.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,10 +109,7 @@
 		0FA7FA1320CE541000548BCE /* CommonProject */ = {
 			isa = PBXGroup;
 			children = (
-				0FA7FA1420CE541000548BCE /* AppDelegate.h */,
-				0FA7FA1520CE541000548BCE /* AppDelegate.m */,
 				0FA7FA2220CE541200548BCE /* Info.plist */,
-				0FA7FA2320CE541200548BCE /* main.m */,
 			);
 			path = CommonProject;
 			sourceTree = "<group>";
@@ -281,8 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA7FA2420CE541200548BCE /* main.m in Sources */,
-				0FA7FA1620CE541000548BCE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
