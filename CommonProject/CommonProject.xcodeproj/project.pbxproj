@@ -13,8 +13,6 @@
 		0FA7FA1E20CE541200548BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FA7FA1D20CE541200548BCE /* Assets.xcassets */; };
 		0FA7FA2120CE541200548BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FA7FA1F20CE541200548BCE /* LaunchScreen.storyboard */; };
 		0FA7FA2420CE541200548BCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FA2320CE541200548BCE /* main.m */; };
-		0FA7FA2E20CE541200548BCE /* CommonProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FA2D20CE541200548BCE /* CommonProjectTests.m */; };
-		0FA7FA3920CE541200548BCE /* CommonProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FA3820CE541200548BCE /* CommonProjectUITests.m */; };
 		0FA7FA4820CE547900548BCE /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FA4720CE547900548BCE /* CustomView.m */; };
 		0FA7FA6020CE578E00548BCE /* CommonProject1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7FA5F20CE578E00548BCE /* CommonProject1.m */; };
 		0FA7FA6120CE578E00548BCE /* CommonProject1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0FA7FA5E20CE578E00548BCE /* CommonProject1.h */; };
@@ -63,11 +61,7 @@
 		0FA7FA2220CE541200548BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FA7FA2320CE541200548BCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0FA7FA2920CE541200548BCE /* CommonProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FA7FA2D20CE541200548BCE /* CommonProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonProjectTests.m; sourceTree = "<group>"; };
-		0FA7FA2F20CE541200548BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FA7FA3420CE541200548BCE /* CommonProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FA7FA3820CE541200548BCE /* CommonProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonProjectUITests.m; sourceTree = "<group>"; };
-		0FA7FA3A20CE541300548BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FA7FA4620CE547900548BCE /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		0FA7FA4720CE547900548BCE /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 		0FA7FA5720CE571700548BCE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -114,8 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				0FA7FA1320CE541000548BCE /* CommonProject */,
-				0FA7FA2C20CE541200548BCE /* CommonProjectTests */,
-				0FA7FA3720CE541200548BCE /* CommonProjectUITests */,
 				0FA7FA5D20CE578E00548BCE /* CommonProject1 */,
 				0FA7FA1220CE541000548BCE /* Products */,
 			);
@@ -149,24 +141,6 @@
 				0FA7FA2320CE541200548BCE /* main.m */,
 			);
 			path = CommonProject;
-			sourceTree = "<group>";
-		};
-		0FA7FA2C20CE541200548BCE /* CommonProjectTests */ = {
-			isa = PBXGroup;
-			children = (
-				0FA7FA2D20CE541200548BCE /* CommonProjectTests.m */,
-				0FA7FA2F20CE541200548BCE /* Info.plist */,
-			);
-			path = CommonProjectTests;
-			sourceTree = "<group>";
-		};
-		0FA7FA3720CE541200548BCE /* CommonProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0FA7FA3820CE541200548BCE /* CommonProjectUITests.m */,
-				0FA7FA3A20CE541300548BCE /* Info.plist */,
-			);
-			path = CommonProjectUITests;
 			sourceTree = "<group>";
 		};
 		0FA7FA5D20CE578E00548BCE /* CommonProject1 */ = {
@@ -342,7 +316,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA7FA2E20CE541200548BCE /* CommonProjectTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +323,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA7FA3920CE541200548BCE /* CommonProjectUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

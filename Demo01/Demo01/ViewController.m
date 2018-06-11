@@ -14,8 +14,6 @@
 #import "AFImageDownloader.h"
 #import "UIImageView+AFNetworking.h"
 #import "UIImageView+WebCache.h"
-#import <CommonProject/CustomView.h>
-#import <CommonProject1/CommonProject1.h>
 #import <CommonProject1/CommonProjectView.h>
 
 
