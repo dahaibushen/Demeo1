@@ -56,6 +56,27 @@
 			remoteGlobalIDString = 0FA7FA5C20CE578E00548BCE;
 			remoteInfo = CommonProject1;
 		};
+		0FA7FABF20CE6F9A00548BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FA7FAB620CE6F9A00548BCE /* CustomProjectNetWork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0FA7FA8020CE6D8100548BCE;
+			remoteInfo = CustomProjectNetWork;
+		};
+		0FA7FAC120CE6F9A00548BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FA7FAB620CE6F9A00548BCE /* CustomProjectNetWork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0FA7FA9820CE6D8300548BCE;
+			remoteInfo = CustomProjectNetWorkTests;
+		};
+		0FA7FAC320CE6F9A00548BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FA7FAB620CE6F9A00548BCE /* CustomProjectNetWork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0FA7FAA320CE6D8300548BCE;
+			remoteInfo = CustomProjectNetWorkUITests;
+		};
 		0FC9D20D2090A39F0094179A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0FC9D1EC2090A39D0094179A /* Project object */;
@@ -77,6 +98,7 @@
 		0F75335420AADE2D00906576 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		0F75335520AADE2D00906576 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		0FA7FA4920CE552700548BCE /* CommonProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CommonProject.xcodeproj; path = ../CommonProject/CommonProject.xcodeproj; sourceTree = "<group>"; };
+		0FA7FAB620CE6F9A00548BCE /* CustomProjectNetWork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CustomProjectNetWork.xcodeproj; path = ../../CustomProjectNetWork/CustomProjectNetWork.xcodeproj; sourceTree = "<group>"; };
 		0FC9D1F42090A39D0094179A /* Demo01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC9D1F72090A39D0094179A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0FC9D1F82090A39D0094179A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -146,6 +168,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		0FA7FAB720CE6F9A00548BCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FA7FAC020CE6F9A00548BCE /* CustomProjectNetWork.app */,
+				0FA7FAC220CE6F9A00548BCE /* CustomProjectNetWorkTests.xctest */,
+				0FA7FAC420CE6F9A00548BCE /* CustomProjectNetWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		0FC9D1EB2090A39D0094179A = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +208,7 @@
 				0FC9D1F82090A39D0094179A /* AppDelegate.m */,
 				0FC9D1FA2090A39D0094179A /* ViewController.h */,
 				0FC9D1FB2090A39D0094179A /* ViewController.m */,
+				0FA7FAB620CE6F9A00548BCE /* CustomProjectNetWork.xcodeproj */,
 				0F75335420AADE2D00906576 /* User.h */,
 				0F75335520AADE2D00906576 /* User.m */,
 				0FC9D2292090A3E10094179A /* GlobalHeader.h */,
@@ -311,6 +344,10 @@
 					ProductGroup = 0FA7FA4A20CE552700548BCE /* Products */;
 					ProjectRef = 0FA7FA4920CE552700548BCE /* CommonProject.xcodeproj */;
 				},
+				{
+					ProductGroup = 0FA7FAB720CE6F9A00548BCE /* Products */;
+					ProjectRef = 0FA7FAB620CE6F9A00548BCE /* CustomProjectNetWork.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -348,6 +385,27 @@
 			fileType = archive.ar;
 			path = libCommonProject1.a;
 			remoteRef = 0FA7FA6620CE592800548BCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0FA7FAC020CE6F9A00548BCE /* CustomProjectNetWork.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CustomProjectNetWork.app;
+			remoteRef = 0FA7FABF20CE6F9A00548BCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0FA7FAC220CE6F9A00548BCE /* CustomProjectNetWorkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CustomProjectNetWorkTests.xctest;
+			remoteRef = 0FA7FAC120CE6F9A00548BCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0FA7FAC420CE6F9A00548BCE /* CustomProjectNetWorkUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CustomProjectNetWorkUITests.xctest;
+			remoteRef = 0FA7FAC320CE6F9A00548BCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
