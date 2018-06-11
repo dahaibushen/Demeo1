@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+typedef void(^completeBlock)(id obj);
 
 @interface NetWork : NSObject
-
+-(void)getRequsetDetailNewsWithString:(NSString*)imgUrl WithCompleteBlock:(completeBlock)completeBlock;
 @end
