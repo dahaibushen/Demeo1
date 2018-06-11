@@ -25,7 +25,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0FA7FA8020CE6D8100548BCE /* CustomProjectNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomProjectNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA7FA9120CE6D8200548BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FA7FAC920CE6FEF00548BCE /* libNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetWork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA7FACB20CE6FEF00548BCE /* NetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWork.h; sourceTree = "<group>"; };
@@ -33,13 +32,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0FA7FA7D20CE6D8100548BCE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0FA7FAC620CE6FEF00548BCE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,7 +54,6 @@
 		0FA7FA8120CE6D8100548BCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FA7FA8020CE6D8100548BCE /* CustomProjectNetWork.app */,
 				0FA7FAC920CE6FEF00548BCE /* libNetWork.a */,
 			);
 			name = Products;
@@ -88,23 +79,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0FA7FA7F20CE6D8100548BCE /* CustomProjectNetWork */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0FA7FAAC20CE6D8300548BCE /* Build configuration list for PBXNativeTarget "CustomProjectNetWork" */;
-			buildPhases = (
-				0FA7FA7C20CE6D8100548BCE /* Sources */,
-				0FA7FA7D20CE6D8100548BCE /* Frameworks */,
-				0FA7FA7E20CE6D8100548BCE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CustomProjectNetWork;
-			productName = CustomProjectNetWork;
-			productReference = 0FA7FA8020CE6D8100548BCE /* CustomProjectNetWork.app */;
-			productType = "com.apple.product-type.application";
-		};
 		0FA7FAC820CE6FEF00548BCE /* NetWork */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FA7FAD120CE6FEF00548BCE /* Build configuration list for PBXNativeTarget "NetWork" */;
@@ -131,9 +105,6 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "胡义勇";
 				TargetAttributes = {
-					0FA7FA7F20CE6D8100548BCE = {
-						CreatedOnToolsVersion = 9.3;
-					};
 					0FA7FAC820CE6FEF00548BCE = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -152,30 +123,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0FA7FA7F20CE6D8100548BCE /* CustomProjectNetWork */,
 				0FA7FAC820CE6FEF00548BCE /* NetWork */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		0FA7FA7E20CE6D8100548BCE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0FA7FA7C20CE6D8100548BCE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0FA7FAC520CE6FEF00548BCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,38 +250,6 @@
 			};
 			name = Release;
 		};
-		0FA7FAAD20CE6D8300548BCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomProjectNetWork/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = COM.JD.CustomProjectNetWork;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		0FA7FAAE20CE6D8300548BCE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomProjectNetWork/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = COM.JD.CustomProjectNetWork;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		0FA7FACF20CE6FEF00548BCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -359,15 +280,6 @@
 			buildConfigurations = (
 				0FA7FAAA20CE6D8300548BCE /* Debug */,
 				0FA7FAAB20CE6D8300548BCE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0FA7FAAC20CE6D8300548BCE /* Build configuration list for PBXNativeTarget "CustomProjectNetWork" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0FA7FAAD20CE6D8300548BCE /* Debug */,
-				0FA7FAAE20CE6D8300548BCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
