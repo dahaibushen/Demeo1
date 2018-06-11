@@ -64,7 +64,6 @@
 		0FA7FA3420CE541200548BCE /* CommonProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA7FA4620CE547900548BCE /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		0FA7FA4720CE547900548BCE /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
-		0FA7FA5720CE571700548BCE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0FA7FA5C20CE578E00548BCE /* libCommonProject1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonProject1.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA7FA5E20CE578E00548BCE /* CommonProject1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonProject1.h; sourceTree = "<group>"; };
 		0FA7FA5F20CE578E00548BCE /* CommonProject1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonProject1.m; sourceTree = "<group>"; };
@@ -133,7 +132,6 @@
 				0FA7FA1820CE541000548BCE /* ViewController.m */,
 				0FA7FA4620CE547900548BCE /* CustomView.h */,
 				0FA7FA4720CE547900548BCE /* CustomView.m */,
-				0FA7FA5720CE571700548BCE /* README.md */,
 				0FA7FA1A20CE541000548BCE /* Main.storyboard */,
 				0FA7FA1D20CE541200548BCE /* Assets.xcassets */,
 				0FA7FA1F20CE541200548BCE /* LaunchScreen.storyboard */,
