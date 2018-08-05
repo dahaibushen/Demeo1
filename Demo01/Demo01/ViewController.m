@@ -67,6 +67,10 @@
 //    id obj = [NSJSONSerialization JSONObjectWithData:data options:(NSJSONReadingMutableContainers) error:&error];
 //add test
     //需要测试sdwebimage的性能情况
+    [self addTest];
+}
+-(void)addTest{
+    NSLog(@"---add Test ----");
 }
 
 - (IBAction)buttClick:(UIButton *)sender {
